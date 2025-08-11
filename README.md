@@ -1,5 +1,28 @@
 # FFmpegKit ![GitHub release](https://img.shields.io/badge/release-v6.0-blue.svg) ![Maven Central](https://img.shields.io/maven-central/v/com.arthenica/ffmpeg-kit-min) ![CocoaPods](https://img.shields.io/cocoapods/v/ffmpeg-kit-ios-min) ![pub](https://img.shields.io/pub/v/ffmpeg_kit_flutter.svg) ![npm](https://img.shields.io/npm/v/ffmpeg-kit-react-native.svg)
 
+
+
+### Sal7one auto builder... -- BEGIN
+## Quick start
+
+I'm just testing an alt way to build, I've used this project as base
+
+Docker is required for quick run 
+check .ffmpegkitrc for overview then run commands 
+
+```bash
+autobuilder/ ./init.sh build
+autobuilder/ ./init.sh gpl64
+
+That's it
+```
+
+### NOTE
+ -- I don't build using OpenSSL, I use GNUTLS
+
+
+### Sal7one auto builder... -- END
+
 ## Notice
 FFmpegKit has been officially retired. There will be no further `ffmpeg-kit` releases.
 

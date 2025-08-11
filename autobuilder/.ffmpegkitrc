@@ -1,0 +1,24 @@
+# .ffmpegkitrc — optional local overrides for ./init.sh
+
+IMAGE_TAG=ffmpegkit-aar-cache:latest
+DOCKER_DIR=./docker
+OUT_DIR=./out
+
+PLATFORM_DEFAULT=linux/amd64
+
+# Build parameters
+API_LEVEL=28
+ABIS=arm64-v8a
+BUILD_MODE=full-gpl
+LIBS=android-zlib,android-media-codec,fontconfig,freetype,fribidi,gmp,gnutls,lame,libass,libiconv,libtheora,libvorbis,libvpx,libwebp,libxml2,opencore-amr,shine,speex,dav1d,kvazaar,x264,xvidcore,x265,libvidstab,rubberband,libilbc,opus,snappy,soxr,libaom,chromaprint,twolame,sdl,tesseract,openh264,vo-amrwbenc,zimg
+REQ_CODECS=libmp3lame,libx264,libx265
+LTS=false
+ALLOW_NET=true
+GIT_REF=
+
+PROJECT_PATHS=
+PROJECT_DEST=dist/aar
+
+HOST_CACHE=./_cache
+
+PREBUILD_X265=true
